@@ -20,6 +20,7 @@ html {
   font-size: 18px;
   background-color: #1b1919;
 }
+
 .content {
   display: flex;
   flex-direction: row;
@@ -124,7 +125,6 @@ ol {
 .content__video-card-description-container {
   flex-grow: 1;
   min-width: 0;
-  padding: 7px;
 }
 
 .search-form__fieldset-title {
@@ -235,7 +235,7 @@ ol {
 }
 
 .search-form__label:has(.search-form__textfield:focus-visible) {
-  border: 1px solid #007bff;
+  border: 1px solid #FFFFFF;
   border-radius: 4px;
 }
 
@@ -269,7 +269,7 @@ ol {
 }
 
 .search-form__label:has(:focus-visible) {
-    outline: 1px solid #007bff;
+    outline: 1px solid #FFFFFF;
 }
 
 .button {
@@ -294,7 +294,7 @@ ol {
 }
 
 .button:focus-visible {
-  outline: 1px solid #007bff;
+  outline: 1px solid #FFFFFF;
 }
 
 .search-form__submit-button {
